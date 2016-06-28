@@ -1,0 +1,68 @@
+new transaction: 1
+creating new database
+transaction 1 committed
+new transaction: 2
+Ese 1 --- Inserimento di 10000 record casuali 
+Read filename : simpledb.log stats : 0
+Write filename : simpledb.log stats : 8572
+LRU
+Read filename : prova.tbl stats : 0
+Write filename : prova.tbl stats : 1967
+LRU
+
+transaction 2 committed
+Read filename : simpledb.log stats : 0
+Write filename : simpledb.log stats : 3
+LRU
+Read filename : prova.tbl stats : 0
+Write filename : prova.tbl stats : 256
+LRU
+Ese 2 --- Lettura dei record
+new transaction: 3
+Read filename : prova.tbl stats : 1112
+Write filename : prova.tbl stats : 0
+LRU
+
+transaction 3 committed
+Read filename : simpledb.log stats : 0
+Write filename : simpledb.log stats : 1
+LRU
+Ese 5 --- Eliminazione dei record se mattricola > 50
+new transaction: 4
+Read filename : simpledb.log stats : 0
+Write filename : simpledb.log stats : 1398
+LRU
+Read filename : prova.tbl stats : 1112
+Write filename : prova.tbl stats : 854
+LRU
+
+transaction 4 committed
+Read filename : simpledb.log stats : 0
+Write filename : simpledb.log stats : 1
+LRU
+
+Ese 1 --- Inserimento di 7000 record casuali 
+Read filename : simpledb.log stats : 0
+Write filename : simpledb.log stats : 6000
+LRU
+Read filename : prova.tbl stats : 1112
+Write filename : prova.tbl stats : 1299
+LRU
+
+transaction 2 committed
+Read filename : simpledb.log stats : 0
+Write filename : simpledb.log stats : 4
+LRU
+Read filename : prova.tbl stats : 0
+Write filename : prova.tbl stats : 256
+LRU
+Ese 2 --- Lettura dei record
+new transaction: 6
+Read filename : prova.tbl stats : 1889
+Write filename : prova.tbl stats : 0
+LRU
+
+transaction 6 committed
+Read filename : simpledb.log stats : 0
+Write filename : simpledb.log stats : 1
+LRU

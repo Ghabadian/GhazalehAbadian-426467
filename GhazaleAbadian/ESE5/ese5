@@ -1,0 +1,4 @@
+Risposta alla domanda 5 
+Dai test effetuati si nota che le operazioni che richiedono scrittura di dati richiedono un numero di scritture nei blocchi scritti (come nel caso delle fasi 1 e 5) quanti sono i dati da scrivere .Mentre operazioni che ne richiedono la lettura richiedono un numero di letture
+minori (questo grazie anche all’aiuto dei buffer).Infine le operazioni di cancellazione sono le più costose perchè richiedono lettura più scrittura.
+
